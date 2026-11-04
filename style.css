@@ -1,0 +1,49 @@
+/* =========================================
+   STYLE UMUM OHSURE COFFEE
+   ========================================= */
+* { 
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+}
+
+/* Kustomisasi Card & Container */
+.form-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    border-top: 4px solid #ff9f43; /* Aksen orange Ohsure Coffee */
+}
+
+/* Tombol Khas Ohsure Coffee (Orange & Navy) */
+.btn-warning, .btn-orange {
+    background-color: #ff9f43 !important;
+    border-color: #ff9f43 !important;
+    color: #fff !important;
+    font-weight: 600;
+}
+
+.btn-warning:hover, .btn-orange:hover {
+    background-color: #e88b30 !important;
+    border-color: #e88b30 !important;
+}
+
+/* Navbar kustom */
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    body { 
+        padding: 10px; 
+    }
+    .form-card { 
+        padding: 20px; 
+    }
+}
